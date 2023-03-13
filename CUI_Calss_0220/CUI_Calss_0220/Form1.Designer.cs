@@ -37,6 +37,7 @@ namespace CUI_Calss_0220
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.btn_buttonl = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // contextMenuStrip1
@@ -81,11 +82,22 @@ namespace CUI_Calss_0220
             this.label3.Size = new System.Drawing.Size(275, 201);
             this.label3.TabIndex = 4;
             // 
+            // btn_buttonl
+            // 
+            this.btn_buttonl.Location = new System.Drawing.Point(20, 134);
+            this.btn_buttonl.Name = "btn_buttonl";
+            this.btn_buttonl.Size = new System.Drawing.Size(110, 47);
+            this.btn_buttonl.TabIndex = 5;
+            this.btn_buttonl.Text = "3/13";
+            this.btn_buttonl.UseVisualStyleBackColor = true;
+            this.btn_buttonl.Click += new System.EventHandler(this.btn_buttonl_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btn_buttonl);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -103,6 +115,7 @@ namespace CUI_Calss_0220
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button btn_buttonl;
     }
 }
 
