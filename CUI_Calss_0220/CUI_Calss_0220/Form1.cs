@@ -19,9 +19,9 @@ namespace CUI_Calss_0220
 
         private void btn_buttonl_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("點擊3/13");
-            Form Button_ = new Form_Button();
-            Button_.Show();
+            //MessageBox.Show("點擊3/13");
+            Form form_Button = new Form_Button();
+            form_Button.Show();
         }
     }
 }
