@@ -24,5 +24,28 @@ namespace CUI_Calss_0220
             else if (button1.Text == "我已經被按過了") 
             button1.Text = "請按我一下";
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            label1.Text ="下方按鈕被按過";
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            string temp = label2.Text;
+            int count = 0;
+            count = Int32.Parse(temp) + 1;
+            label2.Text = "0";
+            label2.Text = Container + "";
+            label2.Text = count.ToString();
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            short sizeNum = 10;
+            button4.Size = new Size(button4.Width + sizeNum, button4.Height + sizeNum);
+        }
     }
 }
