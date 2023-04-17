@@ -35,5 +35,11 @@ namespace CUI_Calss_0220
             Form HW_Form = new HW();
             HW_Form.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form MidExam = new MidExam();
+            MidExam.Show();
+        }
     }
 }

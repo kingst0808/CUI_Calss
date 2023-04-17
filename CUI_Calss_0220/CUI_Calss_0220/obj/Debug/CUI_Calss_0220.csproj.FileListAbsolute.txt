@@ -11,3 +11,4 @@ C:\Users\MEGAS\Desktop\CUI_Calss\CUI_Calss_0220\CUI_Calss_0220\obj\Debug\CUI_Cal
 C:\Users\MEGAS\Desktop\CUI_Calss\CUI_Calss_0220\CUI_Calss_0220\obj\Debug\CUI_Calss_0220.Form_Button.resources
 C:\Users\MEGAS\Desktop\CUI_Calss\CUI_Calss_0220\CUI_Calss_0220\obj\Debug\CUI_Calss_0220.Form_TextBox.resources
 C:\Users\MEGAS\Desktop\CUI_Calss\CUI_Calss_0220\CUI_Calss_0220\obj\Debug\CUI_Calss_0220.HW.resources
+C:\Users\MEGAS\Desktop\CUI_Calss\CUI_Calss_0220\CUI_Calss_0220\obj\Debug\CUI_Calss_0220.MidExam.resources
