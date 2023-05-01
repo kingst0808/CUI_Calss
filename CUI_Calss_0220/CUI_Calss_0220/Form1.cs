@@ -41,5 +41,11 @@ namespace CUI_Calss_0220
             Form MidExam = new MidExam();
             MidExam.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Form form = new FormFinalGame();
+            form.Show();
+        }
     }
 }
