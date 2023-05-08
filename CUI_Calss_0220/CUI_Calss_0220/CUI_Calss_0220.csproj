@@ -58,6 +58,12 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormFinalGame.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +75,12 @@
     </Compile>
     <Compile Include="Form_Button.Designer.cs">
       <DependentUpon>Form_Button.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Timer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Timer.Designer.cs">
+      <DependentUpon>Form_Timer.cs</DependentUpon>
     </Compile>
     <Compile Include="HW.cs">
       <SubType>Form</SubType>
@@ -90,11 +102,17 @@
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormFinalGame.resx">
       <DependentUpon>FormFinalGame.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_Button.resx">
       <DependentUpon>Form_Button.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Timer.resx">
+      <DependentUpon>Form_Timer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HW.resx">
       <DependentUpon>HW.cs</DependentUpon>

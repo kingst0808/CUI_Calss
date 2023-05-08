@@ -47,5 +47,17 @@ namespace CUI_Calss_0220
             Form form = new FormFinalGame();
             form.Show();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Form form = new Form_TextBox();
+            form.Show();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Form form = new Form_TextBox();
+            form.Show();
+        }
     }
 }
