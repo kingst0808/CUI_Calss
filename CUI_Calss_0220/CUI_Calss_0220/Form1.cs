@@ -59,5 +59,24 @@ namespace CUI_Calss_0220
             Form form = new Form_TextBox();
             form.Show();
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Form form_3 = new Form3();
+            form_3.Show();
+
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Form form_10 = new Form_checkbox();
+            form_10.Show();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            Form form_10 = new FormLayout();
+            form_10.Show();
+        }
     }
 }

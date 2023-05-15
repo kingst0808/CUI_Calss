@@ -14,3 +14,6 @@ C:\Users\MEGAS\Desktop\CUI_Calss\CUI_Calss_0220\CUI_Calss_0220\obj\Debug\CUI_Cal
 C:\Users\MEGAS\Desktop\CUI_Calss\CUI_Calss_0220\CUI_Calss_0220\obj\Debug\CUI_Calss_0220.MidExam.resources
 C:\Users\MEGAS\Desktop\CUI_Calss\CUI_Calss_0220\CUI_Calss_0220\obj\Debug\CUI_Calss_0220.Form3.resources
 C:\Users\MEGAS\Desktop\CUI_Calss\CUI_Calss_0220\CUI_Calss_0220\obj\Debug\CUI_Calss_0220.FormFinalGame.resources
+C:\Users\MEGAS\Desktop\CUI_Calss\CUI_Calss_0220\CUI_Calss_0220\obj\Debug\CUI_Calss_0220.Form_Timer.resources
+C:\Users\MEGAS\Desktop\CUI_Calss\CUI_Calss_0220\CUI_Calss_0220\obj\Debug\CUI_Calss_0220.Form_checkbox.resources
+C:\Users\MEGAS\Desktop\CUI_Calss\CUI_Calss_0220\CUI_Calss_0220\obj\Debug\CUI_Calss_0220.FormLayout.resources

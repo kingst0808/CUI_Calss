@@ -70,11 +70,23 @@
     <Compile Include="FormFinalGame.Designer.cs">
       <DependentUpon>FormFinalGame.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormLayout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLayout.Designer.cs">
+      <DependentUpon>FormLayout.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form_Button.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form_Button.Designer.cs">
       <DependentUpon>Form_Button.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_checkbox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_checkbox.Designer.cs">
+      <DependentUpon>Form_checkbox.cs</DependentUpon>
     </Compile>
     <Compile Include="Form_Timer.cs">
       <SubType>Form</SubType>
@@ -108,8 +120,14 @@
     <EmbeddedResource Include="FormFinalGame.resx">
       <DependentUpon>FormFinalGame.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormLayout.resx">
+      <DependentUpon>FormLayout.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form_Button.resx">
       <DependentUpon>Form_Button.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_checkbox.resx">
+      <DependentUpon>Form_checkbox.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_Timer.resx">
       <DependentUpon>Form_Timer.cs</DependentUpon>
