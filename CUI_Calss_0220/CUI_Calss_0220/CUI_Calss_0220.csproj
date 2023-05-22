@@ -100,11 +100,23 @@
     <Compile Include="HW.Designer.cs">
       <DependentUpon>HW.cs</DependentUpon>
     </Compile>
+    <Compile Include="hw_timer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hw_timer.Designer.cs">
+      <DependentUpon>hw_timer.cs</DependentUpon>
+    </Compile>
     <Compile Include="MidExam.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MidExam.Designer.cs">
       <DependentUpon>MidExam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="panel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="panel.Designer.cs">
+      <DependentUpon>panel.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -135,8 +147,14 @@
     <EmbeddedResource Include="HW.resx">
       <DependentUpon>HW.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="hw_timer.resx">
+      <DependentUpon>hw_timer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MidExam.resx">
       <DependentUpon>MidExam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="panel.resx">
+      <DependentUpon>panel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

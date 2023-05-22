@@ -78,5 +78,11 @@ namespace CUI_Calss_0220
             Form form_10 = new FormLayout();
             form_10.Show();
         }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            Form form_11 = new hw_timer();
+            form_11.Show();
+        }
     }
 }
