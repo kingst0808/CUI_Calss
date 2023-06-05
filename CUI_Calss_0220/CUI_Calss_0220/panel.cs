@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace CUI_Calss_0220
 {
@@ -15,6 +16,10 @@ namespace CUI_Calss_0220
         public panel()
         {
             InitializeComponent();
+            File.WriteAllText("Temp.txt", "Hello Ya\n");
+            File.AppendAllText("Temp.txt", "我是第二行\n");
+            String input = File.ReadAllText("Temp.txt");
+            MessageBox.Show(input);
         }
 
         private void button1_Click(object sender, EventArgs e)
