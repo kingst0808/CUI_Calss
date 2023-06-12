@@ -20,6 +20,9 @@ namespace CUI_Calss_0220
             File.AppendAllText("Temp.txt", "我是第二行\n");
             String input = File.ReadAllText("Temp.txt");
             MessageBox.Show(input);
+
+            if (!File.Exists("OrderData.csv"))
+                File.WriteAllText("OrderData.csv", "時間,主食,配餐\n", Encoding.UTF8);
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -50,7 +53,12 @@ namespace CUI_Calss_0220
                     }
                 }
             }
-            MessageBox.Show("主食:" + mainFood+Environment.NewLine+"配菜"+sideFood);
+
+            DateTime currentDateTime = DateTime.Now;
+            string formateDateTime = currentDateTime.ToString("yyyy/MM/dd HH:mm:ss");
+            File.AppendAllText("OrderData.csv", fromateDateTime+","mainFood+","+ sideFood + "\n");
+            MessageBox.Show("點餐成功");
+            //MessageBox.Show("主食:" + mainFood+Environment.NewLine+"配菜"+sideFood);
         }
     }
 }

@@ -206,7 +206,7 @@ namespace CUI_Calss_0220
             // 
             // button11
             // 
-            this.button11.Location = new System.Drawing.Point(303, 187);
+            this.button11.Location = new System.Drawing.Point(303, 197);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(75, 23);
             this.button11.TabIndex = 16;
