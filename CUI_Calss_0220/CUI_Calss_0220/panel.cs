@@ -56,7 +56,7 @@ namespace CUI_Calss_0220
 
             DateTime currentDateTime = DateTime.Now;
             string formateDateTime = currentDateTime.ToString("yyyy/MM/dd HH:mm:ss");
-            File.AppendAllText("OrderData.csv", fromateDateTime+","mainFood+","+ sideFood + "\n");
+            File.AppendAllText("OrderData.csv", formateDateTime+","+mainFood+","+ sideFood + "\n");
             MessageBox.Show("點餐成功");
             //MessageBox.Show("主食:" + mainFood+Environment.NewLine+"配菜"+sideFood);
         }
